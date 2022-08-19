@@ -1,3 +1,11 @@
+body {
+  background-color: rgb(28, 37, 76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
 .square {
   background: #fff;
   border: 1px solid #999;
@@ -6,9 +14,41 @@
   font-weight: bold;
   line-height: 34px;
   height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
   padding: 0;
   text-align: center;
   width: 34px;
+}
+
+.empty-square {
+  background: rgb(133, 167, 202);
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.game {
+  background-color: rgb(133, 167, 202);
+  width: 500px;
+  height: 650px;
+  box-shadow: 0 0 100px #000000;
+  border-radius: 5px;
+}
+
+img {
+  max-height: 300px;
+  border: solid grey 1px;
+  justify-content: center;
+}
+
+.word-input,
+.game-board,
+.guess-input {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
 }
