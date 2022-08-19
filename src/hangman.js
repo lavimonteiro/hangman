@@ -23,7 +23,7 @@ class WordBox extends React.Component {
     super(props);
     this.state = {
       letterMatch: false,
-      word: "help",
+      word: props.input,
     };
   }
   render() {
